@@ -1,0 +1,33 @@
+{
+  "name": "qpg",
+  "version": "0.1.0",
+  "description": "Q-style PG",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:titarenko/qpg.git"
+  },
+  "keywords": [
+    "q",
+    "pg",
+    "postgres",
+    "promise",
+    "deferred",
+    "sql",
+    "postgresql"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titarenko/qpg/issues"
+  },
+  "homepage": "https://github.com/titarenko/qpg",
+  "dependencies": {
+    "q": "^1.0.1",
+    "lodash": "^2.4.1",
+    "pg": "^2.11.1"
+  }
+}
