@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "Q-style PG",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:titarenko/qpg.git"
@@ -29,5 +26,10 @@
     "q": "^1.0.1",
     "lodash": "^2.4.1",
     "pg": "^2.11.1"
+  },
+  "devDependencies": {
+    "should": "^3.2.0-beta1",
+    "mocha": "^1.18.2",
+    "istanbul": "^0.2.6"
   }
 }
